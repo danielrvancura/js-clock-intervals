@@ -1,14 +1,19 @@
 #clock {
 }
 
-#clock img {
+#clock img 
+{position: absolute;
 }
 
-#hour {
+#hour {z-index:2;
 }
 
-#minute {
+#minute {z-index:1;
 }
 
-#second {
+#second {z-index:3;
+}
+
+#myElement {
+  transform: rotate(45deg);
 }
